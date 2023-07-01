@@ -1,0 +1,2 @@
+[2023-07-01 19:57:12] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:57:16] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82

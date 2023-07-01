@@ -1,0 +1,19 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Aruka\\": "src/",
+      "Aruka\\Core\\": "src/core/",
+
+      "Aruka\\Controllers\\": "src/controllers/",
+      "Aruka\\Models\\": "src/models/",
+      "Aruka\\Views\\": "src/views/",
+
+      "Aruka\\Controllers\\API\\V1\\": "src/controllers/api/v1/",
+      "Aruka\\Models\\API\\V1\\": "src/models/api/v1/",
+      "Aruka\\Views\\API\\V1\\": "src/views/api/v1/"
+    }
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}

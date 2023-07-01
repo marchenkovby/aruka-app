@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+  # Включает модуль mod_rewrite для веб-сервера Apache
+  RewriteEngine On
+
+  # Без директивы (.*) = /$1 будет /var/wwww/html/public/$1, с директивой  = /$1
+  RewriteBase /
+
+  # Добавляет слэш в конце запроса, если это не файл
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+
+  # Перенаправляет все запросы на index.php?query=$1, если запрашиваемый путь не соотвествует существующему файлу или папки
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Параметр [QSA] указывает на передачу всех параметров запроса в новый URL-адрес, а параметр [L] указывает на то, что это последнее правило, которое должно быть выполнено
+  RewriteRule ^(.*)$  /index.php?q=$1 [QSA,L]
+</IfModule>

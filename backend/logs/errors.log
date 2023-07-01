@@ -1,0 +1,91 @@
+[2023-07-01 19:47:26] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:47:28] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:57:38] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:57:42] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:57:45] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 19:57:46] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:58:13] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 19:59:26] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 19:59:27] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:59:29] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 19:59:30] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 19:59:42] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 19:59:43] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 20:00:38] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 20:01:05] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 20:01:08] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-01 20:02:28] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 96
+[2023-07-01 20:02:29] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:02:31] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 96
+[2023-07-01 20:02:31] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:03:22] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:03:23] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:04:41] Type: EXCEPTION | Message: No route defined for this URI 123123 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:04:42] Type: EXCEPTION | Message: No route defined for this URI favicon.ico | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:06:48] Type: EXCEPTION | Message: No route defined for URI 123123 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:06:49] Type: EXCEPTION | Message: No route defined for URI favicon.ico | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:06:55] Type: EXCEPTION | Message: Controller Aruka\Controllers\MainController2 not found | File: /var/www/html/src/core/Router.php | Line: 96
+[2023-07-01 20:06:55] Type: EXCEPTION | Message: No route defined for URI favicon.ico | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:07:00] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:07:01] Type: EXCEPTION | Message: No route defined for URI favicon.ico | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:15:54] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:15:56] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:16:05] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:16:12] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:16:14] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:17:02] Type: EXCEPTION | Message: No route defined for URI tes2 | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:17:23] Type: EXCEPTION | Message: No route defined for URI  | File: /var/www/html/src/core/Router.php | Line: 81
+[2023-07-01 20:18:28] Type: EXCEPTION | Message: No route defined for URI testt | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 20:18:56] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 20:25:54] Type: EXCEPTION | Message: Call to undefined function Aruka\Core\str() | File: /var/www/html/src/core/View.php | Line: 13
+[2023-07-01 20:26:04] Type: EXCEPTION | Message: str_replace() expects at least 3 arguments, 2 given | File: /var/www/html/src/core/View.php | Line: 13
+[2023-07-01 20:30:34] Type: EXCEPTION | Message: Call to undefined function Aruka\Core\lcfirs() | File: /var/www/html/src/core/View.php | Line: 14
+[2023-07-01 20:36:56] Type: E_WARNING | Message: Undefined variable $titlePage | File: /var/www/html/src/views/main/index.php | Line: 1
+[2023-07-01 20:37:03] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 20:40:45] Type: E_WARNING | Message: Undefined variable $titlePage | File: /var/www/html/src/views/main/index.php | Line: 1
+[2023-07-01 20:44:10] Type: E_WARNING | Message: Undefined variable $pageTitle | File: /var/www/html/src/views/articles/index.php | Line: 3
+[2023-07-01 20:50:40] Type: EXCEPTION | Message: Typed property Aruka\Core\View::$params must not be accessed before initialization | File: /var/www/html/src/views/articles/show.php | Line: 5
+[2023-07-01 20:50:51] Type: E_WARNING | Message: Undefined variable $params | File: /var/www/html/src/views/articles/show.php | Line: 5
+[2023-07-01 20:52:54] Type: EXCEPTION | Message: Action show not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 20:57:23] Type: EXCEPTION | Message: Action show not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:02:27] Type: EXCEPTION | Message: Action show not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:02:31] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:02:31] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:05] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:11] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:40] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:41] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:44] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:04:51] Type: EXCEPTION | Message: Action index not found | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-01 21:08:48] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:19:54] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:20:13] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:25:49] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 61
+[2023-07-01 21:26:03] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:26:41] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:26:45] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:26:49] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 61
+[2023-07-01 21:26:52] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:26:55] Type: E_WARNING | Message: Undefined array key "COPY" | File: /var/www/html/src/core/Router.php | Line: 61
+[2023-07-01 21:27:30] Type: E_WARNING | Message: Undefined array key "HEAD" | File: /var/www/html/src/core/Router.php | Line: 61
+[2023-07-01 21:27:33] Type: E_WARNING | Message: Undefined array key "OPTIONS" | File: /var/www/html/src/core/Router.php | Line: 61
+[2023-07-01 21:28:47] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:05] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:15] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:35] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:43] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:50] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:29:59] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:30:15] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:30:18] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:30:55] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:31:30] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:31:35] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:32:53] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:33:03] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:33:11] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:33:30] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:34:25] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:35:09] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:35:33] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 21:39:39] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82

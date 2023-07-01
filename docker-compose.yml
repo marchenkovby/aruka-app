@@ -1,0 +1,43 @@
+version: '3'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: backend.Dockerfile
+    restart: always
+    ports:
+      - '8000:80'
+    depends_on:
+      - mysql
+    volumes:
+      - ./backend:/var/www/html
+      - ./backend/docker/php/php.ini:/usr/local/etc/php/php.ini
+      - ./backend/docker/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
+    environment:
+      MYSQL_HOST: ${MYSQL_HOST}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PORT: ${MYSQL_PORT}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DB: ${MYSQL_DB}
+      TZ: ${TIMEZONE}
+      PHP_IDE_CONFIG: ${PHP_IDE_CONFIG}
+    extra_hosts:
+      - ${EXTRA_HOST_DOCKER}
+  mysql:
+    #platform: linux/x86_64
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DB}
+    volumes:
+      - mysql_data:/var/lib/mysql
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - '9090:8080'
+
+volumes:
+  mysql_data:
