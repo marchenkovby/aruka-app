@@ -4,20 +4,20 @@ namespace Aruka\Core;
 
 class View
 {
-    public array $params;
-    public string $path;
+    public array $params = [];
+    public string $path = '';
     public string $layout = 'default';
 
     public function __construct(array $params)
     {
-        $folder_controller = lcfirst(str_replace('Controller', '', $params['controller']));
-        $folder_action = lcfirst(str_replace('Action', '', $params['action']));
-        $this->path = "{$folder_controller}/{$folder_action}";
+        $folderController = lcfirst(str_replace('Controller', '', $params['controller']));
+        $folderAction = lcfirst(str_replace('Action', '', $params['action']));
+        $this->path = "{$folderController}/{$folderAction}";
     }
 
-    public function render($vars): void
+    public function renderPage($data): void
     {
-        extract($vars);
+        extract($data);
         $path = VIEWS . "/{$this->path}.php";
         if (file_exists($path)) {
             ob_start();
@@ -25,5 +25,17 @@ class View
             $content = ob_get_clean();
             require_once LAYOUTS . "/{$this->layout}.php";
         }
+    }
+
+    public function renderApi($data): void
+    {
+        // Преобразует данные в формат JSON
+        $json = json_encode($data);
+
+        // Устанавливает заголовок для указания типа контента
+        header('Content-Type: application/json');
+
+        // Выводит JSON на экран
+        echo $json;
     }
 }

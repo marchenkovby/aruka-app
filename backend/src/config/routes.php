@@ -2,18 +2,32 @@
 
 use Aruka\Core\Router;
 
-Router::addRoute('GET', '', 'MainController@indexAction');
-Router::addRoute('GET', 'error', 'ErrorController@index');
+Router::get('', 'MainController@indexAction');
+Router::get('chat', 'MainController@chatAction');
+Router::get('about', 'MainController@aboutAction');
+Router::get('articles/{id}', 'ArticlesController@showAction');
+Router::get('articles', 'ArticlesController@indexAction');
+Router::post('articles', 'ArticlesController@createAction');
+Router::get('articles/{id}/edit', 'ArticlesController@editAction');
+Router::get('articles/{id}/update', 'ArticlesController@updateAction');
+Router::get('articles/{id}/delete', 'ArticlesController@deleteAction');
 
-Router::addRoute('GET', 'articles', 'ArticlesController@indexAction');
-Router::addRoute('GET', 'articles/{id}', 'ArticlesController@showAction');
+// API
+// Получить статью
+Router::get('api/v1/articles/{id}', 'ArticlesController@apiAction');
 
-Router::addRoute('POST', 'articles/{id}/edit', 'ArticlesController@editAction');
-Router::addRoute('PUT', 'articles/{id}/update', 'ArticlesController@updateAction');
-Router::addRoute('DELETE', 'articles/{id}/delete', 'ArticlesController@deleteAction');
+// Получить все статьи
+Router::get('api/v1/articles', 'ArticlesController@apiAction');
 
-Router::addRoute('GET', 'about', 'AboutController@indexAction');
-Router::addRoute('GET', 'chat', 'ChatController@indexAction');
+// Создать статью
+Router::post('api/v1/articles', 'ArticlesController@apiAction');
 
-Router::addRoute('GET', 'api/v1/articles', 'api\v1\ArticlesController@indexAction');
-Router::addRoute('GET', 'api/v1/articles/{id}', 'api\v1\ArticlesController@showAction');
+// Удалить статью
+Router::delete('api/v1/articles/{id}', 'ArticlesController@apiAction');
+
+// Заменить статью
+Router::put('api/v1/articles/{id}', 'ArticlesController@apiAction');
+
+// Обновить статью
+// Router::post('api/v1/articles/{id}', 'ArticlesController@apiAction');
+Router::patch('api/v1/articles/{id}', 'ArticlesController@apiAction');

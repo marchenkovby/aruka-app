@@ -89,3 +89,111 @@
 [2023-07-01 21:35:09] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
 [2023-07-01 21:35:33] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
 [2023-07-01 21:39:39] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:22:11] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:22:13] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:22:32] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:23:58] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:24:29] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:25:23] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:25:40] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:27:02] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:41:42] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:42:57] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 82
+[2023-07-01 23:50:20] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-01 23:53:28] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-01 23:54:18] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-01 23:58:59] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:00:25] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:03:01] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:05:15] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:05:43] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:06:41] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:07:24] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:10:53] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:11:04] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:11:19] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:11:26] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:11:49] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:11:51] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:12:06] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:12:09] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:12:15] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:12:23] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 00:35:36] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 93
+[2023-07-02 00:35:58] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 93
+[2023-07-02 12:38:55] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:40:02] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:40:08] Type: EXCEPTION | Message: No route defined for this URI | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:44:27] Type: EXCEPTION | Message: No route defined for URI articles/12/delete, method: POST | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:44:59] Type: EXCEPTION | Message: No route defined for URI articles/12/delete, method: POST | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:45:17] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: POST | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:45:31] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:45:35] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: PUT | File: /var/www/html/src/core/Router.php | Line: 97
+[2023-07-02 12:45:41] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 12:49:25] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 12:49:26] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 12:49:27] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 12:50:26] Type: E_WARNING | Message: Undefined array key "PATCH" | File: /var/www/html/src/core/Router.php | Line: 76
+[2023-07-02 12:51:16] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: PATCH | File: /var/www/html/src/core/Router.php | Line: 101
+[2023-07-02 12:51:34] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: PATCH | File: /var/www/html/src/core/Router.php | Line: 101
+[2023-07-02 12:51:38] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: HEAD | File: /var/www/html/src/core/Router.php | Line: 101
+[2023-07-02 12:51:43] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: POST | File: /var/www/html/src/core/Router.php | Line: 101
+[2023-07-02 12:52:03] Type: EXCEPTION | Message: No route defined for URI: articles/12/edit, method: PUT | File: /var/www/html/src/core/Router.php | Line: 101
+[2023-07-02 13:06:35] Type: EXCEPTION | Message: No route defined for URI: , method: POST | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:07:59] Type: EXCEPTION | Message: No route defined for URI: browser-sync/browser-sync-client.js/?v=2.29.3, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:10:28] Type: EXCEPTION | Message: No route defined for URI: browser-sync/browser-sync-client.js/?v=2.29.3, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:10:39] Type: EXCEPTION | Message: No route defined for URI: , method: POST | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:11:08] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:11:15] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:11:49] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: POST | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:12:06] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:12:25] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:17:48] Type: EXCEPTION | Message: No route defined for URI: articles/12/delete, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:19:28] Type: EXCEPTION | Message: No route defined for URI: , method: POST | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:20:40] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:20:45] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:20:52] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: POST | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:21:54] Type: EXCEPTION | Message: No route defined for URI: articles/12, method: PUT | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:23:00] Type: EXCEPTION | Message: No route defined for URI: articles/12, method: PUT | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:23:02] Type: E_WARNING | Message: Undefined array key "matches" | File: /var/www/html/src/controllers/ArticlesController.php | Line: 21
+[2023-07-02 13:23:09] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:23:52] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:24:51] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:24:56] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:25:09] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:25:11] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:25:12] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:29:28] Type: EXCEPTION | Message: No route defined for URI: articles/12/update, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:32:46] Type: EXCEPTION | Message: No route defined for URI: browser-sync/browser-sync-client.js/?v=2.29.3, method: GET | File: /var/www/html/src/core/Router.php | Line: 108
+[2023-07-02 13:32:51] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:06] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:07] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:08] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:09] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:17] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:18] Type: EXCEPTION | Message: Controller Aruka\Controllers\ChatController not found | File: /var/www/html/src/core/Router.php | Line: 123
+[2023-07-02 13:33:33] Type: EXCEPTION | Message: Action ChatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:33:34] Type: EXCEPTION | Message: Action ChatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:33:39] Type: EXCEPTION | Message: Action ChatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:33:40] Type: EXCEPTION | Message: Action ChatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:34:02] Type: EXCEPTION | Message: Action chatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:34:02] Type: EXCEPTION | Message: Action chatAction not found | File: /var/www/html/src/core/Router.php | Line: 120
+[2023-07-02 13:47:48] Type: EXCEPTION | Message: No route defined for URI: browser-sync/browser-sync-client.js/?v=2.29.3, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:47:53] Type: E_WARNING | Message: Undefined array key "matches" | File: /var/www/html/src/controllers/ArticlesController.php | Line: 21
+[2023-07-02 13:48:42] Type: EXCEPTION | Message: No route defined for URI: arf, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:48:48] Type: EXCEPTION | Message: No route defined for URI: ert, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:48:52] Type: EXCEPTION | Message: No route defined for URI: btht, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:48:55] Type: EXCEPTION | Message: No route defined for URI: wer, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:48:58] Type: EXCEPTION | Message: No route defined for URI: browser-sync/browser-sync-client.js/?v=2.29.3, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:49:20] Type: EXCEPTION | Message: No route defined for URI: index.php, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:51:09] Type: EXCEPTION | Message: No route defined for URI: index.php, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:51:11] Type: EXCEPTION | Message: No route defined for URI: index.php, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:51:12] Type: EXCEPTION | Message: No route defined for URI: index.php, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:51:59] Type: EXCEPTION | Message: No route defined for URI: 123, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:54:41] Type: EXCEPTION | Message: No route defined for URI: 123, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:54:46] Type: EXCEPTION | Message: No route defined for URI: articles/12/edit, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:55:35] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles/12/edit, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:55:45] Type: EXCEPTION | Message: No route defined for URI: articles/12, method: PUT | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:56:18] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: PATCH | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 13:56:29] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: PUT | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 14:18:12] Type: EXCEPTION | Message: No route defined for URI: articles/12/delte, method: GET | File: /var/www/html/src/core/Router.php | Line: 115

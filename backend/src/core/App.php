@@ -4,15 +4,9 @@ namespace Aruka\Core;
 
 class App
 {
-    private function __construct()
+    public function __construct()
     {
-    }
-
-    // Создает и запускает приложение
-    public static function run(): void
-    {
-        $instance = new App();
-        $instance->init();
+        $this->init();
     }
 
     // Инициализирует приложение
@@ -30,7 +24,7 @@ class App
         // Подключает файл с различными ошибками
         //require_once TESTS . '/errors.php';
 
-        // Запускает маршрутизатор
-        Router::run();
+        // Создает объект маршрутизатора
+        new Router();
     }
 }

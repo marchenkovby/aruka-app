@@ -4,10 +4,10 @@ namespace Aruka\Core;
 
 abstract class Model
 {
-  protected $db;
+    protected $db;
 
-  public function __construct()
-  {
-    $this->db = new Database();
-  }
+    public function __construct()
+    {
+        $this->db = new Database();
+    }
 }

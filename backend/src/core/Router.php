@@ -14,38 +14,60 @@ class Router
     // Параметры для зарегистрированного маршрута
     public array $params = [];
 
-    private function __construct()
+    public function __construct()
     {
+        $this->dispatch();
     }
 
-    // Создает и запускает маршрутизатор
-    public static function run(): void
+    // Регистрирует маршрут для HTTP-метода GET
+    public static function get(string $route, string $controller): void
     {
-        $instance = new Router();
-        $instance->direct();
+        $route = self::replaceRouteRegex($route);
+        self::$routes['GET'][$route] = $controller;
     }
 
-    // Добавляет маршруты из файла в зарегистрированные маршруты
-    public static function addRoute(string $method, string $route, string $controller): void
+    // Регистрирует маршрут для POST-метода DELETE
+    public static function post(string $route, string $controller): void
     {
-        $route = self::addRegexRoute($route);
-        self::$routes[$method][$route] = $controller;
+        $route = self::replaceRouteRegex($route);
+        self::$routes['POST'][$route] = $controller;
     }
 
-    // Заменяет маршруты на регулярные выражения
-    public static function addRegexRoute(string $route): string
+    // Регистрирует маршрут для HTTP-метода PUT
+    public static function put(string $route, string $controller): void
     {
-        // Шаблоны для замены маршрута на регулярное выражение
-        $patternsRoute = [
+        $route = self::replaceRouteRegex($route);
+        self::$routes['PUT'][$route] = $controller;
+    }
+
+    // Регистрирует маршрут для HTTP-метода DELETE
+    public static function delete(string $route, string $controller): void
+    {
+        $route = self::replaceRouteRegex($route);
+        self::$routes['DELETE'][$route] = $controller;
+    }
+
+    // Регистрирует маршрут для HTTP-метода PATCH
+    public static function patch(string $route, string $controller): void
+    {
+        $route = self::replaceRouteRegex($route);
+        self::$routes['PATCH'][$route] = $controller;
+    }
+
+    // Заменяет маршрут на регулярное выражение
+    public static function replaceRouteRegex(string $route): string
+    {
+        // Шаблоны для замены части маршрута на регулярное выражение
+        $patterns = [
             '/{id}/' => '(?P<id>\d+)',
             '/\//' => '\/',
         ];
 
-        // Заменяет маршрут на регулярное выражение выражения,
-        // если есть совпадение с шаблоном $patternsRoute
-        foreach ($patternsRoute as $patternRoute => $patternRegex) {
-            if (preg_match($patternRoute, $route)) {
-                $route = preg_replace($patternRoute, $patternRegex, $route);
+        // Заменяет часть маршрута на регулярное выражение,
+        // если есть совпадение с шаблоном $patterns
+        foreach ($patterns as $pattern => $regex) {
+            if (preg_match($pattern, $route)) {
+                $route = preg_replace($pattern, $regex, $route);
             }
         }
 
@@ -55,35 +77,46 @@ class Router
     }
 
     // Ищет совпадения между URI, полученным от пользователя,
-    // и существующим маршутом из свойства routes
-    private function isMatchedUri(string $requestUri, string $requestMethod): bool
+    // и существующим зарегистрированным маршутом
+    private function isMatchedUri(string $uri, string $method): bool
     {
-        foreach (self::$routes[$requestMethod] as $route => $controller) {
-            if (preg_match($route, $requestUri, $matches)) {
+        // Проверяет существует ли HTTP-метод, полученный от пользователя
+        // в зарегстрированных маршрутах
+        if (!array_key_exists($method, self::$routes)) {
+            return false;
+        }
+
+        // Ищет совпадения между URI и HTTP-методом, полученным от пользователя, и
+        // зарегистрированным маршрутам. Если совпадение найдено, то вызывает
+        // контроллер с нужным экшином
+        foreach (self::$routes[$method] as $route => $controller) {
+            if (preg_match($route, $uri, $matches)) {
                 list($this->params['controller'], $this->params['action']) = explode('@', $controller);
-                $this->params['matches'] = $matches;
+                // Проверяет если в URI, полученным от пользователя,
+                // существует id, то записывает id в параметры маршрута
+                if (isset($matches['id'])) {
+                    $this->params['id'] = $matches['id'];
+                }
                 return true;
             }
         }
         return false;
     }
 
-    // Вызывает контроллер и экшин в зависимости от URI и метода, полученного от пользователя
-    private function direct(): void
+    // Диспетчер вызывает нужный контроллер и экшин
+    private function dispatch(): void
     {
-        $requestUri = trim($_SERVER['REQUEST_URI'], '/');
-        $requestMethod = $_SERVER['REQUEST_METHOD'];
-
-        if ($this->isMatchedUri($requestUri, $requestMethod)) {
+        $uri = trim($_SERVER['REQUEST_URI'], '/');
+        $method = $_SERVER['REQUEST_METHOD'];
+        if ($this->isMatchedUri($uri, $method)) {
             $this->callAction($this->params['controller'], $this->params['action']);
             return;
         }
-
-        throw new Exception("No route defined for this URI");
+        throw new Exception("No route defined for URI: {$uri}, method: {$method}");
     }
 
     // Вызывает экшин контроллера
-    private function callAction($controller, $action)
+    private function callAction($controller, $action): void
     {
         $controller = 'Aruka\\Controllers\\' . $controller;
         if (class_exists($controller)) {
@@ -91,7 +124,7 @@ class Router
             if (method_exists($controller, $action)) {
                 $controller->$action();
             } else {
-                throw new \Exception("Action {$action} not found");
+                throw new Exception("Action {$action} not found");
             }
         } else {
             throw new Exception("Controller {$controller} not found");

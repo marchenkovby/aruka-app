@@ -8,43 +8,51 @@ class ArticlesController extends Controller
 {
     public function indexAction(): void
     {
-        $vars = [
+        $this->view->renderPage([
             'pageTitle' => 'Page with all articles',
-        ];
-        $this->view->render($vars);
+        ]);
+    }
+
+    public function createAction(): void
+    {
+        $this->view->renderPage([
+            'pageTitle' => 'Create page',
+        ]);
     }
 
     public function showAction(): void
     {
-        $vars = [
+        $this->view->renderPage([
             'pageTitle' => 'Page with 1 article',
-            'pageId' => $this->params['matches']['id'],
-        ];
-        $this->view->render($vars);
+            'pageId' => $this->params['id'],
+        ]);
     }
 
     public function editAction(): void
     {
-        $vars = [
+        $this->view->renderPage([
             'pageTitle' => 'Edit page with article',
-        ];
-        $this->view->render($vars);
+        ]);
     }
 
     public function updateAction(): void
     {
-        $vars = [
+        $this->view->renderPage([
             'pageTitle' => 'Update page with article',
-        ];
-        $this->view->render($vars);
+        ]);
     }
 
     public function deleteAction(): void
     {
-        $vars = [
+        $this->view->renderPage([
             'pageTitle' => 'Delete page with article',
-        ];
-        $this->view->render($vars);
-        ;
+        ]);
+    }
+
+    public function apiAction(): void
+    {
+        $this->view->renderApi([
+            'pageTitle' => 'Page with API',
+        ]);
     }
 }

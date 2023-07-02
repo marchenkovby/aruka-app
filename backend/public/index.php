@@ -6,6 +6,5 @@ use Aruka\Core\App;
 // Load the autoloader
 require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-// Запускает приложение
-// Start the application
-App::run();
+// Создает объект приложения
+new App();
