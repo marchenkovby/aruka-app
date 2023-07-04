@@ -4,13 +4,11 @@ namespace Aruka\Core;
 
 abstract class Controller
 {
-    public array $params;
-    public object $view;
-    public $render;
+    public array $paramsRoute = [];
 
-    public function __construct($params)
+    public function __construct($paramsRoute)
     {
-        $this->params = $params;
-        $this->view = new View($params);
+        $this->paramsRoute = $paramsRoute;
+        $this->view = new View($paramsRoute);
     }
 }

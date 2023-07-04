@@ -24,7 +24,7 @@ class ArticlesController extends Controller
     {
         $this->view->renderPage([
             'pageTitle' => 'Page with 1 article',
-            'pageId' => $this->params['id'],
+            'pageId' => $this->paramsRoute['id'],
         ]);
     }
 
@@ -53,6 +53,7 @@ class ArticlesController extends Controller
     {
         $this->view->renderApi([
             'pageTitle' => 'Page with API',
+            'api_version' => $this->paramsRoute['api_version'],
         ]);
     }
 }

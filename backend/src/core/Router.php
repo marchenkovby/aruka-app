@@ -61,6 +61,7 @@ class Router
         $patterns = [
             '/{id}/' => '(?P<id>\d+)',
             '/\//' => '\/',
+            '/{api_version}/' => 'v(?P<api_version>.{1,2})',
         ];
 
         // Заменяет часть маршрута на регулярное выражение,
@@ -96,6 +97,11 @@ class Router
                 // существует id, то записывает id в параметры маршрута
                 if (isset($matches['id'])) {
                     $this->params['id'] = $matches['id'];
+                }
+                // Проверяет если в URI, полученным от пользователя,
+                // существует api_version, то записывает api_version в параметры маршрута
+                if (isset($matches['api_version'])) {
+                    $this->params['api_version'] = $matches['api_version'];
                 }
                 return true;
             }

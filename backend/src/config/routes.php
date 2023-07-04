@@ -14,10 +14,10 @@ Router::get('articles/{id}/delete', 'ArticlesController@deleteAction');
 
 // API
 // Получить статью
-Router::get('api/v1/articles/{id}', 'ArticlesController@apiAction');
+Router::get('api/{api_version}/articles/{id}', 'ArticlesController@apiAction');
 
 // Получить все статьи
-Router::get('api/v1/articles', 'ArticlesController@apiAction');
+Router::get('api/{api_version}/articles', 'ArticlesController@apiAction');
 
 // Создать статью
 Router::post('api/v1/articles', 'ArticlesController@apiAction');

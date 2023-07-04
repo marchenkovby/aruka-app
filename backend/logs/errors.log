@@ -197,3 +197,30 @@
 [2023-07-02 13:56:18] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: PATCH | File: /var/www/html/src/core/Router.php | Line: 115
 [2023-07-02 13:56:29] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: PUT | File: /var/www/html/src/core/Router.php | Line: 115
 [2023-07-02 14:18:12] Type: EXCEPTION | Message: No route defined for URI: articles/12/delte, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 14:40:59] Type: EXCEPTION | Message: No route defined for URI: api/v2, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-02 14:41:15] Type: EXCEPTION | Message: No route defined for URI: api/v2/articles/12, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-03 13:28:08] Type: EXCEPTION | Message: Typed property Aruka\Core\Controller::$view must not be accessed before initialization | File: /var/www/html/src/controllers/ArticlesController.php | Line: 33
+[2023-07-03 13:29:18] Type: EXCEPTION | Message: Typed property Aruka\Core\Controller::$view must not be accessed before initialization | File: /var/www/html/src/controllers/ArticlesController.php | Line: 11
+[2023-07-03 13:30:22] Type: EXCEPTION | Message: No route defined for URI: 123, method: GET | File: /var/www/html/src/core/Router.php | Line: 115
+[2023-07-03 13:47:36] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:48:44] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:48:47] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:48:52] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:48:53] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:48:53] Type: EXCEPTION | Message: No route defined for URI: api/v1/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:54:41] Type: EXCEPTION | Message: No route defined for URI: api/v2articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:55:20] Type: EXCEPTION | Message: No route defined for URI: api/323/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:55:28] Type: EXCEPTION | Message: No route defined for URI: api/33/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:55:37] Type: EXCEPTION | Message: No route defined for URI: api/33/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:58:15] Type: E_WARNING | Message: preg_match(): Compilation failed: unmatched closing parenthesis at offset 28 | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-03 13:58:16] Type: E_WARNING | Message: preg_match(): Compilation failed: unmatched closing parenthesis at offset 28 | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-03 13:58:17] Type: E_WARNING | Message: preg_match(): Compilation failed: unmatched closing parenthesis at offset 28 | File: /var/www/html/src/core/Router.php | Line: 94
+[2023-07-03 13:58:32] Type: EXCEPTION | Message: No route defined for URI: api/33/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:58:32] Type: EXCEPTION | Message: No route defined for URI: api/33/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:58:33] Type: EXCEPTION | Message: No route defined for URI: api/33/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:58:49] Type: EXCEPTION | Message: No route defined for URI: api/v10/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:59:12] Type: EXCEPTION | Message: No route defined for URI: api/v9articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 13:59:17] Type: EXCEPTION | Message: No route defined for URI: api/v9/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 14:00:13] Type: EXCEPTION | Message: No route defined for URI: api/v1100/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 14:00:17] Type: EXCEPTION | Message: No route defined for URI: api/v100/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121
+[2023-07-03 14:03:50] Type: EXCEPTION | Message: No route defined for URI: api/t3/articles, method: GET | File: /var/www/html/src/core/Router.php | Line: 121

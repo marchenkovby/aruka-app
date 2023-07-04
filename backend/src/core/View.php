@@ -4,14 +4,13 @@ namespace Aruka\Core;
 
 class View
 {
-    public array $params = [];
     public string $path = '';
     public string $layout = 'default';
 
-    public function __construct(array $params)
+    public function __construct(array $paramsRoute)
     {
-        $folderController = lcfirst(str_replace('Controller', '', $params['controller']));
-        $folderAction = lcfirst(str_replace('Action', '', $params['action']));
+        $folderController = lcfirst(str_replace('Controller', '', $paramsRoute['controller']));
+        $folderAction = lcfirst(str_replace('Action', '', $paramsRoute['action']));
         $this->path = "{$folderController}/{$folderAction}";
     }
 
